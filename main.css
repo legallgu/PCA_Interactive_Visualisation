@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+iframe {
+    width: 110%;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 0%;
+    bottom: auto;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 4rem;
+    margin-top: 2em;
+    margin-bottom: .3em;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1,p {
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
